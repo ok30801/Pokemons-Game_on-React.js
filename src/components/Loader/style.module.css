@@ -1,0 +1,33 @@
+.Loader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation: Loader 2.2s linear infinite;
+}
+.Loader img {
+    width: 50px;
+}
+@keyframes Loader {
+    0% {
+        transform: rotate(360deg);
+    }
+    /*100% {
+        transform: rotate(-360deg);
+    }*/
+
+   /* 0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-15deg);
+    }
+    20%, 40% {
+        transform: rotate(15deg);
+    }*/
+}
+
+
+
+

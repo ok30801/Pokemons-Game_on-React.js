@@ -1,0 +1,21 @@
+.card {
+    width:230px;
+    height: 300px;
+    transition: .3s;
+}
+.cardBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.card:hover {
+    cursor: pointer;
+}
+.active {
+    margin-top: -20px;
+}
+.pokemonCard:active .wrap.front::after,
+.pokemonCard:focus .wrap.front::after {
+    border-color: var(--rock);
+}

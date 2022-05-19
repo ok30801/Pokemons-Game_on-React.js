@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width:230px;
+    height: 300px;
+}
+.cardBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
